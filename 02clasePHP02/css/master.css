@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  text-align: center;
+}
