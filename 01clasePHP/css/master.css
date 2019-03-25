@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: green;
+  /* text-align: center; */
+}
+/*
+h2{
+  color: white;
+}
+
+
+h3{
+  background-color: blue;
+} */
