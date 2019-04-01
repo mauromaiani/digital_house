@@ -9,7 +9,7 @@
     <h1>Bucles</h1>
 
 
-        <?php
+      <?php
         echo "<br>";
         echo "<hr>";
         echo "<br>";
@@ -33,16 +33,16 @@
           echo "<hr>";
           echo "<br>";
 
-          $valor1=10;
-          function sumar ($valor2){
-            global $valor1;
-            return $valor1 + $valor2;
-          }
-          $resultado= sumar(50)
-          echo "la suma es $resultado";
-          echo "$valor1";
+          // $valor1=10;
+          // function sumar ($valor2){
+          //   global $valor1;
+          //   return $valor1 + $valor2;
+          // }
+          // $resultado = sumar(50)
+          // echo "la suma es $resultado";
+          // echo "$valor1";
 
-        ?>
+      ?>
 
 
   </body>
