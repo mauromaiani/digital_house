@@ -1,0 +1,3 @@
+
+{"nombre":"Juan","color":"azul","categorias":["js","php","css"]}
+{"nombre":"Juan","color":"rojo","categorias":["js","php","css"]}
