@@ -1,7 +1,7 @@
 <?php
-include_once("controladores/funciones.php");
+// include_once("controladores/funciones.php");
 if($_POST){
-  
+
   $errores= validar($_POST,"login");
   if(count($errores)==0){
     $usuario = buscarEmail($_POST["email"]);
@@ -20,12 +20,12 @@ if($_POST){
           exit;
         }
       }
-      
+
     }
 
-    
-    
-    
+
+
+
   }
 
 }
@@ -55,7 +55,7 @@ if($_POST){
         </ul>
       <?php endif;?>
 
-  
+
     <section class="row  text-center ">
       <article class="col-12  " >
           <h2>Inicio de sesión</h2>
@@ -64,20 +64,20 @@ if($_POST){
             <input name="email" type="text" id="email"   value="<?=isset($errores["email"])? "":inputUsuario("email") ;?>" placeholder="Correo electrónico"/>
             <br>
             <label>Contraseña:</label>
-          
+
             <input name="password" type="password" id="password"  value="" placeholder="Contraseña..." />
             <br>
-            
-            
-            <input name="recordar" type="checkbox" id="recordarme" value="recordar"/> 
+
+
+            <input name="recordar" type="checkbox" id="recordarme" value="recordar"/>
             <label>Recuerdarme </label>
             <a href="olvidePassword.php">Olvide mi Contraseña</a>
             <br>
-            
+
             <button class="btn-buttom btn-primary" type="submit">Entrar</button>
           </form>
-        
-      </article> 
+
+      </article>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
